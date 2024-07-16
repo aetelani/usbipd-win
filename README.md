@@ -87,7 +87,7 @@ sudo usbip attach --remote=<HOST> --busid=<BUSID>
 > - You no longer have to specify a specific distribution.
 > - The syntax for the command to attach has changed slightly.
 
-You can attach the device from within Windows with the following command, which does not require administrator privileges:
+You can attach the device from within Windows with the following command, which is executed without administrator privileges:
 
 ```powershell
 usbipd attach --wsl --busid=<BUSID>
